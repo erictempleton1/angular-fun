@@ -5,7 +5,7 @@
 
 /* Move down content because we have a fixed navbar that is 3.5rem tall */
 body {
-  padding-top: 5rem;
+  padding-top: 3.5rem;
 }
 
 /*
@@ -68,4 +68,8 @@ h1 {
 .placeholder img {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
+}
+
+a:focus {
+    outline: none;
 }
